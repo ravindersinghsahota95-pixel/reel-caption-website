@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1b1b1b);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CONTROLS */
+.controls {
+  background: #111;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #cccccc;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #7f5af0, #5a35e5);
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* OUTPUT */
+.output {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.card {
+  background: #111;
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.card h3 {
+  color: #a78bfa;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.copy {
+  margin-top: 10px;
+  background: #222;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: #999;
+}
