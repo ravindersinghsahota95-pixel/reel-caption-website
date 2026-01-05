@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reel Caption Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>🎬 Reel Caption Generator</h1>
+    <p>Create viral captions + song suggestions instantly</p>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+
+    <!-- CONTROLS -->
+    <section class="controls">
+      <div class="field">
+        <label>Mood</label>
+        <select id="mood">
+          <option value="attitude">Attitude 😎</option>
+          <option value="sad">Sad 💔</option>
+          <option value="motivation">Motivation 🔥</option>
+          <option value="love">Love ❤️</option>
+          <option value="funny">Funny 😂</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Language</label>
+        <select id="language">
+          <option value="english">English</option>
+          <option value="punjabi">Punjabi (Gurmukhi)</option>
+          <option value="roman">Punjabi (Roman)</option>
+          <option value="hinglish">Hinglish</option>
+        </select>
+      </div>
+
+      <button onclick="generate()">Generate Caption</button>
+    </section>
+
+    <!-- OUTPUT -->
+    <section class="output">
+      <div class="card">
+        <h3>✨ Caption</h3>
+        <p id="captionText">Your caption will appear here</p>
+        <button class="copy" onclick="copyText('captionText')">📋 Copy Caption</button>
+      </div>
+
+      <div class="card">
+        <h3>🎵 Song Suggestion</h3>
+        <p id="songText">Song will appear here</p>
+        <button class="copy" onclick="copyText('songText')">📋 Copy Song</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Reel Caption Generator | Made for creators</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+  </html>
